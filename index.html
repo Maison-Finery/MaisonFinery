@@ -136,6 +136,9 @@
 </footer>
 <div id="cart">
   <h2>Mon panier</h2>
+  <div id="panier">
+  <p>Votre panier est vide.</p>
+</div>
   <p>Votre panier est vide.</p>
 </div>
   <p>Élégance au quotidien ✨</p>
@@ -186,5 +189,7 @@ function ajouterAuPanier() {
   alert("Produit ajouté au panier 🛒");
 }
 </script>
+document.getElementById("panier").innerHTML =
+  "<p>Bijou élégant — 29,90 €</p>";
 </body>
 </html>
