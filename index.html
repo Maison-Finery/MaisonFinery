@@ -128,7 +128,7 @@
   <div>
   <h3>Bijou élégant</h3>
   <p>29,90 €</p>
-  <button>Ajouter au panier</button>
+<button onclick="ajouterAuPanier()">Ajouter au panier</button>
 </div>
 </div>
 <footer>
@@ -178,6 +178,13 @@
 <footer>
   © 2026 Maison Finery — Tous droits réservés
 </footer>
+<script>
+let panier = [];
 
+function ajouterAuPanier() {
+  panier.push("Bijou élégant");
+  alert("Produit ajouté au panier 🛒");
+}
+</script>
 </body>
 </html>
